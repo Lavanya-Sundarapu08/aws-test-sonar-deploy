@@ -11,11 +11,11 @@ class cseControllerTest {
 	@Autowired
 	cseController c;
 //	cseController c = new cseController();
-//	@Test
-//	void csetest() {
-//		int result = c.addCse(2,3);
-//		assertEquals(5,result);
-//	}
+	@Test
+	void csetest() {
+		int result = c.addCse(2,3);
+		assertEquals(5,result);
+	}
 
 
 }
